@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    background-color:  #8d94a8;;
+    height: 100vh;
+    width: 100vw;
+  
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px 200px;
+    margin-top: 22px;
+}
+.Logo{
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 113px;
+}
+ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: larger;
+}
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+.Search-Box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    cursor: pointer;
+    border-style: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+button{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border-style: none;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin:129px -364px;
+}
+.Right-Section{
+    font-size: xx-large;
+    
+}
+span{
+    color: green;
+}
+.Background{
+    background-color: grey;
+}
+.Left-Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+button:hover{
+    
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    font-weight: 600;
+}
+footer{
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 613px;
+}
+footer p{
+    margin-top: 79px;
+    margin-right: 312px;
+}
+footer ul{
+    margin-top: 79px;
+    margin-right: 50px;
+    display: flex;
+    gap: 50px;
+}
